@@ -1,4 +1,4 @@
-# Stock-system-with-Python-and-flet.
+# Stock-system-with-Python.
 This simple inventory system was created using Python together with the flet library, due to its simplicity of manipulation, with the aim of exercising fundamental programming skills.
 
 
@@ -9,6 +9,7 @@ The main functionalities implemented in the system are detailed below:
 
 Product Registration
 The system allows the registration of products, where the user must enter the name of the product, the product category, the price and the initial quantity in stock. The system automatically assigns a unique ID to each product at the time of registration, avoiding duplication. If the product already exists in stock, the system offers the option to update the quantity or move the product to another category, if the user wishes.
+
 Registration Flow:
 • The user fills in the name, price, category and quantity.
 • The system checks whether the product already exists in stock.
@@ -16,6 +17,7 @@ Registration Flow:
 • Otherwise, the product is added to stock with an automatically generated ID.
 Stock Movements (Input and Output)
 The system allows the user to record product input and output movements, changing the quantity available in stock. The type of movement (input or output) must be specified, along with the quantity moved.
+
 Movement Functionalities:
 • Stock Input: Increases the quantity of the product in stock.
 • Stock Output: Decreases the quantity of the product, ensuring that the quantity is not negative. If the quantity desired for output is greater than the quantity available, the system issues an error.
